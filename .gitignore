@@ -1,0 +1,109 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+notebooks/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Data - CRITICAL: Never commit images or raw data
+data/raw_images/**
+data/*/raw_images/**
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.webp
+
+# Exclude specific data files (keep only processed CSVs)
+data/economic_data/*_backup.csv
+data/economic_data/*_2015_2017.csv
+data/processed_features/test_features.csv
+data/processed_features/color_features.csv
+
+# Models (if you have saved model files)
+models/**
+*.pkl
+*.h5
+*.pt
+*.pth
+
+# Outputs (optional - you may want to commit some result images)
+outputs/**
+
+# Results - Keep summaries, exclude intermediate files
+results/*.txt
+results/*_detail.csv
+
+# Environment files
+.env
+.env.example
+*.env
+
+# Config (if contains sensitive info)
+config/config.yaml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.cache
+
+# Batch/shell scripts that might contain paths
+run_scraper.bat
+setup.bat
+
+# Documentation drafts
+docs/**
+
+# Tests
+.pytest_cache/
+.coverage
+htmlcov/
+*.cover
+.hypothesis/
+
+# Project-specific
+arc/Vogue-Runway-Scraper-main/**
+scraper.py
+batch_feature_extractor
+src/test_small_econometrics.py

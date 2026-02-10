@@ -1,0 +1,7 @@
+Predictor,Target,Optimal Lag,F-test p,χ² p,Significant
+vibrancy_diff,VIX,8,0.5468,0.3969,✗
+vibrancy_diff,SP500_diff,7,0.0186,0.0035,✓
+vibrancy_diff,Unemployment,2,0.1478,0.1292,✗
+VIX,vibrancy_diff,7,0.5775,0.4597,✗
+SP500_diff,vibrancy_diff,8,0.0774,0.0214,✗
+Unemployment,vibrancy_diff,1,0.8357,0.8329,✗

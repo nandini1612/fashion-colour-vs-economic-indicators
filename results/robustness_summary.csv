@@ -1,0 +1,9 @@
+Check,P-value,Correlation,Significant,Notes
+0. Baseline (Full Sample),0.0186,-0.022,Yes,vibrancy → SP500 at lag 7
+1. Exclude COVID,0.009731675650062672,-0.030191709357076938,Yes,Remove Mar–Jun 2020
+2. Alt Metrics (avg),0.021037580369729376,-0.007464308517129111,3/3 sig,"Darkness, brightness, weighted"
+3. Target: SP500,0.018563342298265652,-0.022392925551387336,Yes,vibrancy → SP500
+3. Target: SP500_Return,0.06308945600083633,0.05201094490114858,No,vibrancy → SP500_Return
+3. Target: Unemployment,0.15144716977631234,-0.17701654884654502,No,vibrancy → Unemployment
+5. Deseasonalized,0.09831751240168388,,No,Season control
+6. Winsorized,0.005712458676144152,,Yes,5/95 winsorization
