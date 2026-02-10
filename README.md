@@ -429,15 +429,7 @@ But I wouldn't redo it. This project taught me what I needed to learn about econ
 
 ---
 
-## 👤 About
-
-Built by **[Your Name]** | [LinkedIn](#) | [Portfolio](#) | [Email](#)
-
-*Data scientist exploring the intersection of culture, markets, and machine learning.*
-
----
-
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Economic data: Federal Reserve Bank of St. Louis
 - Statistical methods: statsmodels development team
